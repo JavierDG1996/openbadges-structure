@@ -23,7 +23,7 @@ services:
       - "4200:4200"
 
   moodle:
-    image: 'bitnami/moodle:3'
+    image: 'bitnami/moodle:3.11.7'
     environment:
       - "MOODLE_DATABASE_HOST=mariadb"
       - "MOODLE_DATABASE_PORT_NUMBER=3306"
